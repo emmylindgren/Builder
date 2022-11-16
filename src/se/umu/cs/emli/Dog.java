@@ -3,6 +3,11 @@ package se.umu.cs.emli;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Dog class to keep information about different dogs.
+ * The only way to create an instance of a dog is to use the
+ * nested Builderclass for the class.
+ */
 public class Dog {
     private String name;
     private String type;
@@ -52,6 +57,11 @@ public class Dog {
         return builder.toString();
     }
 
+    /**
+     * Builderclass for the dogclass. Create a dog
+     * in different steps and only add what is needed for that instance.
+     * Implements AbstractDogBuilder.
+     */
     public static class DogBuilder implements AbstractDogBuilder{
         private Dog dog;
 

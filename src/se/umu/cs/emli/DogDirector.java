@@ -1,5 +1,10 @@
 package se.umu.cs.emli;
 
+/**
+ * A director whose purpose is to collect code for
+ * regular dogs, to simplify the making of popular instances of dogs with
+ * the dogBuilder.
+ */
 public class DogDirector {
     private final Dog.DogBuilder dogBuilder;
 

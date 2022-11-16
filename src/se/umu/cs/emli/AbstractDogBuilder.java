@@ -1,5 +1,8 @@
 package se.umu.cs.emli;
 
+/**
+ * Interface containing the different methods a dogBuilder should contain.
+ */
 public interface AbstractDogBuilder {
     Dog.DogBuilder setName(String name);
     Dog.DogBuilder setType(String type);
