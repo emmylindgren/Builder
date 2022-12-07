@@ -7,6 +7,7 @@ import java.util.List;
  * Dog class to keep information about different dogs.
  * The only way to create an instance of a dog is to use the
  * nested Builderclass for the class.
+ * @author Emmy Lindgren, id19eln.
  */
 public class Dog {
     private String name;
